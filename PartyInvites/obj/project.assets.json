@@ -12540,15 +12540,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
+      "projectUniqueName": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\PartyInvites.csproj",
       "projectName": "PartyInvites",
-      "projectPath": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\PartyInvites\\PartyInvites.csproj",
+      "projectPath": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\PartyInvites.csproj",
       "packagesPath": "C:\\Users\\churtado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\PartyInvites\\obj\\",
+      "outputPath": "C:\\Users\\churtado\\source\\repos\\PartyInvites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12578,14 +12575,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.5"
+            "version": "[2.0.5, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
